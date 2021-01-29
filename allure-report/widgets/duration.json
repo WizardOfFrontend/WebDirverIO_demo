@@ -1,0 +1,41 @@
+[ {
+  "uid" : "2919a845d1f81971",
+  "name" : "A user should be able to log out",
+  "time" : {
+    "start" : 1611958558653,
+    "stop" : 1611958559026,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69ca6195c522cc52",
+  "name" : "A user can't log in with invalid username and password",
+  "time" : {
+    "start" : 1611958547662,
+    "stop" : 1611958551446,
+    "duration" : 3784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7baa17b639b76ede",
+  "name" : "The color of page header should be black",
+  "time" : {
+    "start" : 1611958546576,
+    "stop" : 1611958547662,
+    "duration" : 1086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c5376247505a9d",
+  "name" : "A user can log in with valid username and password",
+  "time" : {
+    "start" : 1611958551446,
+    "stop" : 1611958558653,
+    "duration" : 7207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

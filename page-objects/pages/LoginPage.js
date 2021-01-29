@@ -1,6 +1,10 @@
 import Base from './Base'
 
 class LoginPage extends Base {
+
+  get PageHeader_txt(){
+    return $('h3=Log in to ZeroBank')
+  }
   get Login_form() {
     return $('#login_form')
   }
@@ -37,6 +41,15 @@ class LoginPage extends Base {
     this.FormIsVisible();
     this.Fill_Form(username, password);
     this.Submit_Form();
+  }
+
+  GetButtonColor(){
+    this.Submit_btn.waitForExist();
+    return this.Submit_btn.getCSSProperty('color');
+  }
+  GetPageHeaderColor(){
+    this.PageHeader_txt.waitForExist();
+    return this.PageHeader_txt.getCSSProperty('color');
   }
 }
 

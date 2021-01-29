@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "The color of page header should be black",
+    "uid" : "7baa17b639b76ede",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611958546576,
+      "stop" : 1611958547662,
+      "duration" : 1086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104" ]
+  }, {
+    "name" : "A user can't log in with invalid username and password",
+    "uid" : "69ca6195c522cc52",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611958547662,
+      "stop" : 1611958551446,
+      "duration" : 3784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104" ]
+  }, {
+    "name" : "A user can log in with valid username and password",
+    "uid" : "62c5376247505a9d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611958551446,
+      "stop" : 1611958558653,
+      "duration" : 7207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104" ]
+  }, {
+    "name" : "A user should be able to log out",
+    "uid" : "2919a845d1f81971",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611958558653,
+      "stop" : 1611958559026,
+      "duration" : 373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104" ]
+  } ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "62c5376247505a9d",
+  "name" : "A user can log in with valid username and password",
+  "fullName" : "E2E Tests - Login / Logout Functionalities.A user can log in with valid username and password",
+  "historyId" : "2bee6ee1d38959e945cffb25fee0c1a2",
+  "time" : {
+    "start" : 1611958551446,
+    "stop" : 1611958558653,
+    "duration" : 7207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "testMethod",
+    "value" : "A user can log in with valid username and password"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62c5376247505a9d.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

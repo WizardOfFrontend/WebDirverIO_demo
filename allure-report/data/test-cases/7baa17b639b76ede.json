@@ -1,0 +1,58 @@
+{
+  "uid" : "7baa17b639b76ede",
+  "name" : "The color of page header should be black",
+  "fullName" : "E2E Tests - Login / Logout Functionalities.The color of page header should be black",
+  "historyId" : "b0dcbff7c47aa729f1a54d3b17357f4",
+  "time" : {
+    "start" : 1611958546576,
+    "stop" : 1611958547662,
+    "duration" : 1086
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "testMethod",
+    "value" : "The color of page header should be black"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Login / Logout Functionalities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7baa17b639b76ede.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}
