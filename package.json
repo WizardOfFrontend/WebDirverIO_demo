@@ -1,0 +1,32 @@
+{
+  "name": "wdi",
+  "version": "1.0.0",
+  "description": "Automated Software testing with WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "testingbot": "./node_modules/.bin/wdio wdio.testingbot.conf.js",
+    "browserstack": "./node_modules/.bin/wdio wdio.browserstack.conf.js"
+  },
+  "author": "Toby",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "@wdio/browserstack-service": "^6.12.0",
+    "@wdio/cli": "^6.12.0",
+    "@wdio/local-runner": "^6.12.0",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^87.0.5",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
